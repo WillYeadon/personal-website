@@ -2,6 +2,7 @@ const http = require('http');
 
 http.createServer(function (req, res) {
 res.write("Welcome one, welcome all!");
+res.write("Enjoy your stay!");
 res.end();
 
 
