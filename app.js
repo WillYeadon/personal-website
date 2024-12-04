@@ -1,7 +1,7 @@
 const http = require('http');
 
 http.createServer(function (req, res) {
-res.write("Welcome one, welcome all! Enjoy your stay!");
+res.write("Will Yeadon's website");
 res.end();
 
 
